@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML5 Showcase Page</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>My HTML5 Showcase Page</h1>
+        <p>
+            Welcome to my HTML5 showcase webpage.
+            This page demonstrates different HTML5 elements and features.
+            It includes images, tables, forms, audio and video.
+            It also demonstrates how to embed another webpage.
+        </p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="https://www.google.com" target="_blank">Google</a> |
+        <a href="https://www.youtube.com" target="_blank">YouTube</a> |
+        <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+    </nav>
+
+    <!-- Image Section -->
+    <section>
+        <h2>My Favourite Image</h2>
+        <img src="gill.png"
+             alt="Placeholder Image" width="400">
+    </section>
+
+    <!-- Table Section -->
+    <section>
+        <h2>HTML Elements Table</h2>
+        <table border="1" cellpadding="10">
+            <tr>
+                <th>Element Name</th>
+                <th>Category</th>
+                <th>Purpose</th>
+            </tr>
+            <tr>
+                <td>Heading</td>
+                <td>Text</td>
+                <td>Displays titles</td>
+            </tr>
+            <tr>
+                <td>Image</td>
+                <td>Media</td>
+                <td>Displays pictures</td>
+            </tr>
+            <tr>
+                <td>Form</td>
+                <td>Input</td>
+                <td>Collects user information</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Form Section -->
+    <section>
+        <h2>Registration Form</h2>
+
+        <form>
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <br><br>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+                <br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+                <br><br>
+
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+                <br><br>
+
+                <label for="hobby">Select Your Hobby:</label>
+                <select id="hobby" name="hobby">
+                    <option>Reading</option>
+                    <option>Playing Games</option>
+                    <option>Sports</option>
+                    <option>Programming</option>
+                </select>
+                <br><br>
+
+                <label for="file">Upload File:</label>
+                <input type="file" id="file" name="file">
+                <br><br>
+
+                <label for="range">Skill Level:</label>
+                <input type="range" id="range" name="range" min="0" max="100">
+                <br><br>
+
+                <input type="checkbox" id="agree" name="agree">
+                <label for="agree">I agree to the terms and conditions</label>
+                <br><br>
+
+                <label>Course Progress:</label>
+                <progress value="70" max="100"></progress>
+                <br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+
+            </fieldset>
+        </form>
+    </section>
+
+    <!-- Audio Section -->
+    <section>
+        <h2>Audio Player</h2>
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.mp3"
+                    type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+    </section>
+
+    <!-- Video Section -->
+    <section>
+        <h2>Video Player</h2>
+        <video width="400" height="250" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4"
+                    type="video/mp4">
+            Your browser does not support video.
+        </video>
+    </section>
+
+    <!-- Embedded Webpage Section -->
+    <section>
+        <h2>Embedded Website</h2>
+        <iframe src="https://www.wikipedia.org"
+                width="600" height="400"
+                title="Wikipedia Website">
+        </iframe>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Kevin Peterson J. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
